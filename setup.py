@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "talker = mobile_manipurator.talker1:main",
+            "listener = mobile_manipurator.listener1:main"
         ],
     },
 )
