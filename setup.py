@@ -13,15 +13,16 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='g288-pc',
-    maintainer_email='g288-pc@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='ZxcG288',
+    maintainer_email='kangval.work@gmail.com',
+    description='A package for mobile manipulator project',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             "talker = mobile_manipurator.talker1:main",
-            "listener = mobile_manipurator.listener1:main"
+            "listener = mobile_manipurator.listener1:main",
+            "project1 = mobile_manipurator.project1:main" 
         ],
     },
 )

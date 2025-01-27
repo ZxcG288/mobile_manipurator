@@ -3,19 +3,17 @@
 <package format="3">
   <name>mobile_manipurator</name>
   <version>0.0.0</version>
-  <description>mobile_manipurator</description>
+  <description>Mobile manipulator ROS 2 package</description>
   <maintainer email="kangval.work@gmail.com">ZxcG288</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache License 2.0</license>
 
   <depend>rclpy</depend>
+  <depend>project_values</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
-
-  <exec_depend>demo_nodes_cpp</exec_depend>
-  <exec_depend>demo_nodes_py</exec_depend>
 
   <export>
     <build_type>ament_python</build_type>
