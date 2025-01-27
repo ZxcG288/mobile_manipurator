@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             "talker = mobile_manipurator.talker1:main",
             "listener = mobile_manipurator.listener1:main",
-            "project1 = mobile_manipurator.project1:main" 
+            "project1 = mobile_manipurator.project1:main" ,
+            "servo_test1 = mobile_manipurator.servo_test1:main"
         ],
     },
 )
